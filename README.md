@@ -27,7 +27,7 @@ export default {
   }
 }
 </script>
-<!-- you can choose alot of diffrent styles from highlight.js/styles -->
+<!-- you can choose alot of diffrent styles from highlight.js/styles in your node_modules -->
 <style src="highlight.js/styles/panda-syntax-dark.css"></style>
 ```
 
