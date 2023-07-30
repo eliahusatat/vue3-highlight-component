@@ -31,6 +31,9 @@ export default {
 <style src="highlight.js/styles/panda-syntax-dark.css"></style>
 ```
 
+## Example
+![img.png](img.png)
+
 Prop `language` is optional since highlight.js could automatically infer the language if it's not set.
 
 
