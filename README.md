@@ -33,3 +33,7 @@ export default {
 
 Prop `language` is optional since highlight.js could automatically infer the language if it's not set.
 
+
+#### on [npm](https://www.npmjs.com/package/vue3-highlight-component?activeTab=readme)
+
+#### on [github](https://github.com/eliahusatat/vue3-highlight-component)
