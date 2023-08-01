@@ -1,6 +1,6 @@
 {
   "name": "vue3-highlight-component",
-  "version": "0.1.7",
+  "version": "0.2.9",
   "main": "dist/vue3-highlight-component.common.js",
   "files": [
     "dist/*",

@@ -5,7 +5,7 @@
 
 ```vue
 <template>
-  <HighLight language="js" :code="code"/>
+  <HighLight  :with-header="true" language="js" header-language="JavaScript"  :code="code"/>
 </template>
 
 <script>
@@ -32,7 +32,7 @@ export default {
 ```
 
 ## Example
-![img.png](img.png)
+![img.png](example.png)
 
 Prop `language` is optional since highlight.js could automatically infer the language if it's not set.
 
