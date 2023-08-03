@@ -1,11 +1,12 @@
 {
   "name": "vue3-highlight-component",
-  "version": "0.2.9",
+  "version": "0.3.4",
   "main": "dist/vue3-highlight-component.common.js",
   "files": [
     "dist/*",
     "*.js",
-    "*.json"
+    "*.json",
+    "example.png"
   ],
   "private": false,
   "license": "MIT",
@@ -14,6 +15,24 @@
     "build": "vue-cli-service build --target lib --name vue3-highlight-component ./src/components/HighLight.vue",
     "lint": "vue-cli-service lint"
   },
+  "repository": "https://github.com/eliahusatat/vue3-highlight-component",
+  "bugs": {
+    "url": "https://github.com/eliahusatat/vue3-highlight-component/issues"
+  },
+  "homepage": "https://github.com/eliahusatat/vue3-highlight-component/",
+  "keywords": [
+    "vue3-highlight-component",
+    "code",
+    "pre",
+    "highlight",
+    "syntax",
+    "vue",
+    "vue3",
+    "highlightjs",
+    "highlight.js",
+    "component",
+    "javascript"
+  ],
   "dependencies": {
     "core-js": "^3.8.3",
     "highlight.js": "^11.8.0",

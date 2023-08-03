@@ -1,7 +1,20 @@
 # vue3-highlight-component
 
+### Description
 
-## Usage
+With vue3-highlight-component, you can highlight code blocks within your application using  the power of [Highlight.js](https://highlightjs.org/).
+In addition to supporting multiple programming languages, the component can be customized with different props to match the design of your application.
+
+### Installation
+```
+npm i highlight.js vue3-highlight-component
+```
+
+## Example
+![img.png](example.png)
+
+
+### Basic Usage
 
 ```vue
 <template>
@@ -31,12 +44,18 @@ export default {
 <style src="highlight.js/styles/panda-syntax-dark.css"></style>
 ```
 
-## Example
-![img.png](example.png)
 
-Prop `language` is optional since highlight.js could automatically infer the language if it's not set.
+### Props
+
+|   Name   |  Type  | Description  |      Required      |      Default      |
+| :------: | :----: | :---------: | :-----------------: |:----------------: |
+| code | String |  The text of the code displayed by the component  | **✔️** ||
+| language | String |  The language of the code (is optional since highlight.js could automatically infer the language if it's not set.) | **❌** | highlight.js output|
+| withHeader | Boolean |  For headers with language name and copy option set to true. |**❌**   |false|
+| copyText | String | If you would like to add custom text to the copy option . Only relevant if withHeader is set. |  **❌** |Copy code|
+| copySuccessText |  String | If you would like to add custom text to the success copy (Following the copy option click) . Only relevant if withHeader is set. | **❌** |Copied!|
+| headerLanguage | String | If you want the language displayed in the header to have a custom name. Only relevant if withHeader is set. |  **❌** |dispaly the props language|
 
 
 #### on [npm](https://www.npmjs.com/package/vue3-highlight-component?activeTab=readme)
 
-#### on [github](https://github.com/eliahusatat/vue3-highlight-component)
